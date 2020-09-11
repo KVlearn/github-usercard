@@ -57,11 +57,11 @@
     luishrd
     bigknell
 */
-const followersArray = ['tetondan',
-  'dustinmyers',
-  'justsml',
-  'luishrd',
-  'bigknell'];
+// const followersArray = ['tetondan',
+//   'dustinmyers',
+//   'justsml',
+//   'luishrd',
+//   'bigknell'];
 
 const mygit="kvlearn";
 /*function creates/displays my Github info Card*/
@@ -195,17 +195,17 @@ myfollowers.forEach(item=>{
 
 // * Look into adding your GitHub contribution graph. There are a number of different ways of doing this, [this Stack Overflow discussion](https://stackoverflow.com/questions/34516592/embed-github-contributions-graph-in-website) will get you started.
  
-function createGraph(login){
- /*create graphdiv and append to each button*/
- const graphContainer=document.createElement('div');
- const maincontainer=document.querySelector('.container');
- const button=document.querySelector('button');
- button.addEventListener('click',()=>{
-    const graphContainer=document.createElement('div');
-    maincontainer.style.maxWidth="1160";
-    graphContainer.classList.add('calendar');
-    graphContainer.textContent =new GitHubCalendar(".calendar",`${login}`); 
-  return graphContainer;
- })
+// function createGraph(login){
+//  /*create graphdiv and append to each button*/
+//  const graphContainer=document.createElement('div');
+//  const maincontainer=document.querySelector('.container');
+//  const button=document.querySelector('button');
+//  button.addEventListener('click',()=>{
+//     const graphContainer=document.createElement('div');
+//     maincontainer.style.maxWidth="1160";
+//     graphContainer.classList.add('calendar');
+//     graphContainer.textContent =new GitHubCalendar(".calendar",`${login}`); 
+//   return graphContainer;
+//  })
  
-}
+// }
