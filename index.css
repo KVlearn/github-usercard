@@ -62,12 +62,13 @@ body {
   background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 .container {
-  max-width: 800px;
+  max-width: 800px; 
   margin: 50px auto;
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 .header {
@@ -123,5 +124,43 @@ body {
   margin: 3px 0 10px;
 }
 
+.expbutton{
+  /* position:relative;
+  display:flex; */
+  border-radius: 12%;
+  padding:1%;
+  margin:1.2%;
+  font-size: 1.4rem;
+  background-color: darkcyan;
+  color: #FFF;
+}
 
+/* .morecard {
+  /* width: 100%;
+  padding: 20px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px -2px #000;
+  background-color: #FFF; */  
+  /* transition: all,1.5s,ease-in-out;
+  transform: scale(1.2);
+  height:450px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: seashell
+/* } */
+.calendar-graph{
+  width:500px;
+  height: 100px;
+  object-fit:cover;
+}
 
+.calendar {
+  flex: 0 0 100%;
+  border: none;
+  margin-top: 1rem;
+  min-height: unset; 
+  width: 950px;
+  text-align: center;
+  margin: 0 auto;
+ } 
